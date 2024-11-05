@@ -12,7 +12,7 @@ export default function Home() {
   const calculate = () => {
     try {
       setDisplay(eval(display).toString());
-    } catch (error) {
+    } catch {
       setDisplay("Error");
     }
   };
